@@ -1,0 +1,71 @@
+mysql -u root -p
+>> <enter password> 
+root>> show variables where Variable_name = 'hostname';
+
+// in metadata.json, change each "vm_ip" to the value shown from the previous sql command.
+
+root>> CREATE USER 'r2024041302h0'@'%' IDENTIFIED WITH mysql_native_password BY 'r2024041302h0';
+root>> FLUSH PRIVILEGES;
+root>> CREATE DATABASE r2024041302h0;
+root>> GRANT ALL PRIVILEGES ON r2024041302h0.* TO 'r2024041302h0'@'%';
+root>> FLUSH PRIVILEGES;
+root>> exit
+
+mysql -u r2024041302h0 -password
+>> <enter password=r2024041302h0>
+>> use r2024041302h0;
+>> <copy paste ddl>
+
+CREATE TABLE Users(
+    user VARCHAR(32) NOT NULL,
+    password VARCHAR(32) NOT NULL,
+    date INT NOT NULL,
+    PRIMARY KEY (user)
+);
+
+CREATE TABLE Nba(
+    name VARCHAR(32) NOT NULL,
+    type VARCHAR(16) NOT NULL,
+    PRIMARY KEY (name)
+);
+
+CREATE TABLE Preferences(
+    user VARCHAR(32) NOT NULL,
+    nba_entity VARCHAR(32) NOT NULL,
+    preference VARCHAR(16) NOT NULL,
+    PRIMARY KEY (user, nba_entity),
+    FOREIGN KEY (user)
+        REFERENCES Users(user)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE,
+    FOREIGN KEY (nba_entity)
+        REFERENCES Nba(name)
+        ON DELETE RESTRICT
+        ON UPDATE RESTRICT
+);
+
+// repeat the same, except instead of r2024041302h0 -> do r2024041302h1
+
+
+Metadata:
+{
+    "Ranges": {
+        "Start": [2024041302],
+        "End": [null],
+        "Moduli": [2]
+    },
+    "Connections": {
+        "r2024041302h0": {
+            "mysql_username": "r2024041302h0",
+            "mysql_password": "r2024041302h0",
+            "mysql_database": "r2024041302h0",
+            "vm_ip": "127.0.0.1"
+        },
+        "r2024041302h1": {
+            "mysql_username": "r2024041302h1",
+            "mysql_password": "r2024041302h1",
+            "mysql_database": "r2024041302h1",
+            "vm_ip": "127.0.0.1"
+        }
+    }
+}

@@ -1,0 +1,216 @@
+[
+   {
+"user": "bob",
+"date": 2024041402,
+"nba_entity": "Toronto Raptors",
+"preference": "bandwagon"
+},
+{
+"user": "bob",
+"date": 2024041402,
+"nba_entity": "Los Angeles Clippers",
+"preference": "bandwagon"
+},
+{
+"user": "bob",
+"date": 2024041402,
+"nba_entity": "Boston Celtics",
+"preference": "favorite"
+},
+{
+"user": "bob",
+"date": 2024041402,
+"nba_entity": "Los Angeles Lakers",
+"preference": "rival"
+},
+{
+"user": "bob",
+"date": 2024041402,
+"nba_entity": "LeBron James",
+"preference": "favorite"
+},
+{
+"user": "george",
+"date": 2024041405,
+"nba_entity": "Toronto Raptors",
+"preference": "bandwagon"
+},
+{
+"user": "george",
+"date": 2024041405,
+"nba_entity": "Sacramento Kings",
+"preference": "favorite"
+},
+{
+"user": "george",
+"date": 2024041405,
+"nba_entity": "Los Angeles Lakers",
+"preference": "hater"
+},
+{
+"user": "george",
+"date": 2024041405,
+"nba_entity": "Portland Trail Blazers",
+"preference": "hater"
+},
+{
+"user": "george",
+"date": 2024041405,
+"nba_entity": "LeBron James",
+"preference": "favorite"
+},
+{
+"user": "thomas",
+"date": 2024041420,
+"nba_entity": "LeBron James",
+"preference": "favorite"
+},
+{
+"user": "thomas",
+"date": 2024041420,
+"nba_entity": "Houston Rockets",
+"preference": "favorite"
+},
+{
+"user": "thomas",
+"date": 2024041420,
+"nba_entity": "Golden State Warriors",
+"preference": "favorite"
+},
+{
+"user": "thomas",
+"date": 2024041420,
+"nba_entity": "Boston Celtics",
+"preference": "bandwagon"
+},
+{
+"user": "thomas",
+"date": 2024041420,
+"nba_entity": "Toronto Raptors",
+"preference": "bandwagon"
+},
+{
+"user": "thomas",
+"date": 2024041420,
+"nba_entity": "Los Angeles Lakers",
+"preference": "bandwagon"
+},
+{
+"user": "nina5",
+"date": 2024041307,
+"nba_entity": "Los Angeles Clippers",
+"preference": "bandwagon"
+},
+{
+"user": "nina5",
+"date": 2024041307,
+"nba_entity": "Boston Celtics",
+"preference": "rival"
+},
+{
+"user": "nina5",
+"date": 2024041307,
+"nba_entity": "Los Angeles Lakers",
+"preference": "favorite"
+},
+{
+"user": "nina5",
+"date": 2024041307,
+"nba_entity": "New Orleans Pelicans",
+"preference": "bandwagon"
+},
+{
+"user": "nina5",
+"date": 2024041307,
+"nba_entity": "LeBron James",
+"preference": "favorite"
+},
+{
+"user": "sam",
+"date": 2024041401,
+"nba_entity": "Los Angeles Clippers",
+"preference": "bandwagon"
+},
+{
+"user": "sam",
+"date": 2024041401,
+"nba_entity": "Golden State Warriors",
+"preference": "favorite"
+},
+{
+"user": "sam",
+"date": 2024041401,
+"nba_entity": "Los Angeles Lakers",
+"preference": "bandwagon"
+},
+{
+"user": "sam",
+"date": 2024041401,
+"nba_entity": "Boston Celtics",
+"preference": "rival"
+},
+{
+"user": "sam",
+"date": 2024041401,
+"nba_entity": "Portland Trail Blazers",
+"preference": "favorite"
+},
+{
+"user": "sam",
+"date": 2024041401,
+"nba_entity": "LeBron James",
+"preference": "favorite"
+},
+    {
+        "user": "sam",
+        "date": 2024041401,
+        "nba_entity": "Kawhi Leonard",
+        "preference": "favorite"
+    },
+    {
+        "user": "jeremy",
+        "date": 2024041411,
+        "nba_entity": "Kawhi Leonard",
+        "preference": "favorite"
+    },
+    {
+        "user": "jeremy",
+        "date": 2024041411,
+        "nba_entity": "Los Angeles Lakers",
+        "preference": "favorite"
+    },
+    {
+        "user": "jeremy",
+        "date": 2024041411,
+        "nba_entity": "Boston Celtics",
+        "preference": "rival"
+    },
+    {
+        "user": "jeremy",
+        "date": 2024041411,
+        "nba_entity": "Houston Rockets",
+        "preference": "bandwagon"
+    },
+    {
+        "user": "jeremy",
+        "date": 2024041411,
+        "nba_entity": "New Orleans Pelicans",
+        "preference": "rival"
+    },
+    {
+        "user": "jeremy",
+        "date": 2024041411,
+        "nba_entity": "New York Knicks",
+        "preference": "bandwagon"
+    },
+    {
+        "user": "tyler",
+        "date": 2024041403,
+        "nba_entity": "Stephen Curry",
+        "preference": "favorite"
+    }
+    
+    
+
+
+]

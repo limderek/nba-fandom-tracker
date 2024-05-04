@@ -1,0 +1,173 @@
+[
+    {
+        "user": "bob",
+        "date": 2024041402,
+        "password": "securepassword"
+    },
+    {
+        "user": "tyler",
+        "date": 2024041403,
+        "password": "password2"
+    },
+    {
+        "user": "george",
+        "date": 2024041405,
+        "password": "eeeee"
+    },
+    {
+        "user": "nina5",
+        "date": 2024041307,
+        "password": "mochi"
+    },
+    {
+        "user": "thomas",
+        "date": 2024041420,
+        "password": "ticondaroga"
+    },
+    {
+        "user": "sam",
+        "date": 2024041401,
+        "password": "sampassword"
+    },
+    {
+        "user": "jeremy",
+        "date": 2024041411,
+        "password": "bball"
+    },
+    {
+        "user": "rory",
+        "date": 2024041318,
+        "password": "issupercool"
+    },
+    {
+        "user": "aidan",
+        "date": 2024041405,
+        "password": "securepasswd"
+    },
+    {
+    "user": "emily",
+    "date": 2024041406,
+    "password": "emilypassword"
+},
+{
+    "user": "alex",
+    "date": 2024041407,
+    "password": "alex123"
+},
+{
+    "user": "sara",
+    "date": 2024041408,
+    "password": "sara567"
+},
+{
+    "user": "max",
+    "date": 2024041409,
+    "password": "maxpassword"
+},
+{
+    "user": "lucas",
+    "date": 2024041410,
+    "password": "lucaspw"
+},
+{
+    "user": "mia",
+    "date": 2024041411,
+    "password": "miapassword"
+},
+{
+    "user": "jacob",
+    "date": 2024041412,
+    "password": "jacob123"
+},
+{
+    "user": "olivia",
+    "date": 2024041413,
+    "password": "oliviapass"
+},
+{
+    "user": "ethan",
+    "date": 2024041414,
+    "password": "ethan456"
+},
+{
+    "user": "ava",
+    "date": 2024041415,
+    "password": "avapassword"
+},
+{
+    "user": "mia",
+    "date": 2024041311,
+    "password": "miapassword"
+},
+{
+    "user": "jacob",
+    "date": 2024041312,
+    "password": "jacob123"
+},
+{
+    "user": "olivia",
+    "date": 2024041313,
+    "password": "oliviapass"
+},
+{
+    "user": "ethan",
+    "date": 2024041314,
+    "password": "ethan456"
+},
+{
+    "user": "ava",
+    "date": 2024041315,
+    "password": "avapassword"
+},
+    {
+    "user": "noah",
+    "date": 2024041311,
+    "password": "noahpass"
+},
+{
+    "user": "emma",
+    "date": 2024041312,
+    "password": "emmapassword"
+},
+{
+    "user": "liam",
+    "date": 2024041313,
+    "password": "liampw"
+},
+{
+    "user": "anderson",
+    "date": 2024041314,
+    "password": "jumpjacks"
+},
+{
+    "user": "oliver",
+    "date": 2024041315,
+    "password": "oliverpass"
+},
+   {
+    "user": "sophia",
+    "date": 2024041316,
+    "password": "sophiapw"
+},
+{
+    "user": "jack",
+    "date": 2024041319,
+    "password": "jackpass"
+},
+{
+    "user": "charlene",
+    "date": 2024041327,
+    "password": "testpassword"
+},
+{
+    "user": "william",
+    "date": 2024041419,
+    "password": "williampass"
+},
+{
+    "user": "mateo",
+    "date": 2024041413,
+    "password": "mateopass"
+} 
+    
+]

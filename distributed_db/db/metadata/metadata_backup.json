@@ -1,0 +1,22 @@
+{
+    "Ranges": {
+        "Start": [2024041302],
+        "End": [null],
+        "Moduli": [2]
+    },
+    "Connections": {
+
+        "r2024041302h1": {
+            "mysql_username": "r2024041302h1",
+            "mysql_password": "r2024041302h1",
+            "mysql_database": "r2024041302h1",
+            "vm_ip": "127.0.0.1"
+        },
+        "r2024041302h0": {
+            "mysql_username": "r2024041302h0",
+            "mysql_password": "r2024041302h0",
+            "mysql_database": "r2024041302h0",
+            "vm_ip": "127.0.0.1"
+        } 
+    }
+}

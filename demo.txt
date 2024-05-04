@@ -1,0 +1,40 @@
+// cli sample commands
+
+# db metadata
+python cli.py metadata    
+
+# scaling
+python cli.py expand 3
+
+
+# insert (via JSON), distributing the data to appropriate db.
+python3 cli.py insert users -j sample_data/sample_users.json && python3 cli.py insert nba -j sample_data/sample_nba.json && python3 cli.py insert prefs -j sample_prefs.json
+
+python3 cli.py insert users
+python3 cli.py insert nba -j sample_nba.json
+python3 cli.py insert prefs -j sample_prefs.json
+
+
+# read tables and nba categories
+python3 cli.py select -t users 
+python3 cli.py select -t prefs
+python3 cli.py select -n teams
+python3 cli.py select -n nba
+
+# read data associated with a specific user name
+python3 cli.py user emily
+
+# update data
+python3 cli.py update prefs "preference='adores'" -c " user='emily' and nba_entity='Los Angeles Lakers' and preference='hater'"
+python3 cli.py update nba "name='New Orleans Jazz'" -c "name='New Orleans Pelicans'"
+python3 cli.py update prefs "preference='hater'" -c " user='emily' and nba_entity='Los Angeles Lakers' and preference='adores'"
+
+# aggs
+python cli.py breakdown --type team --level favorite
+python cli.py breakdown --level bandwagon
+python cli.py breakdown --name "Los Angeles Lakers"
+
+# delete data
+python3 cli.py delete prefs 
+
+python3 cli.py delete users && python3 cli.py delete nba
