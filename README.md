@@ -1,9 +1,12 @@
 # NBA Fandom Tracker
 
-## 0a. App Description
+## App Description
 This app is a tracker that allows users to see data on their NBA teams/players of choice. These are chosen according to three different levels of fandom: fan, bandwagon, and rival. As the main sports apps do not acknowledge this functionality, this app is meant to allow users to further track their nba fandom preferences into better detail.
 
-## 0b. Project Files
+## Project Architecture
+![architecture](img/architecture.jpg)
+
+## Project Files
 ```bash
 .
 └── NBA-Fandom-Tracker/
@@ -39,7 +42,7 @@ This app is a tracker that allows users to see data on their NBA teams/players o
     └── setup_db.txt
     └── demo.txt
 ```
-## 0c. Description of Files
+## Description of Files
 - web_ui/ : directory for frontend user interface
     - **app.py**: Streamlit app for the frontend user interface. Makes requests to the Flask app. Entrypoint for Web-UI.
 - distributed_db/ : directory for the code interacting with the distributed database
@@ -61,7 +64,7 @@ This app is a tracker that allows users to see data on their NBA teams/players o
 - setup_db.txt: instructions to setup MySQL databases, tables, and app metadata on local machine.
 - demo.txt: sample commands for the DB manager CLI (same used in in-class project demo)
 
-## 1a. Cloud-based Setup
+## Cloud-based Setup
 - Install Terraform (3.96.0+)
     - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 - Microsoft Azure CLI
@@ -73,7 +76,7 @@ This app is a tracker that allows users to see data on their NBA teams/players o
     - `pip install -r requirements.txt`
 - Alter metadata filepath  constants in `./distributed_db/constants.py`, and the top of the files of `./distributed_db/cli.py` and `./distributed_db/api.py` to point to the appropriate metadata file.
 
-## 1b. Local Setup
+## Local Setup
 - Install Python 3.11.1, or create a Python 3.11.1 venv
     - `python3 -m venv env`
     - `source env/bin/activate`
@@ -83,17 +86,17 @@ This app is a tracker that allows users to see data on their NBA teams/players o
 - Follow MySQL setup instructions at `.distributed_db/setup_db.txt`
 - NOTE: this version of the distributed database does not scale out. For options to add databases, refer to the previous section (1a).
 
-## 2. Run Streamlit App
+## Run Streamlit App
 - in a separate terminal:
     - `cd web_ui`
     - `streamlit run app.py`
 
-## 3. Run Flask App
+## Run Flask App
 - in a separate terminal:
     - `cd distributed_db`
     - `python3 api.py`
 
-## 4. Run CLI Commands (examples in ./demo.txt)
+## Run CLI Commands (examples in ./demo.txt)
 - in a separate terminal:
     - `cd distributed_db`
 - run commands:
